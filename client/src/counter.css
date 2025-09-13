@@ -1,0 +1,12 @@
+/* flip/roll effect on change */
+.flip {
+  display: inline-block;
+  animation: flipIn 0.4s ease;
+  transform-origin: bottom;
+}
+
+@keyframes flipIn {
+  0%   { transform: rotateX(-90deg); opacity: 0; color: #28a745; }
+  50%  { transform: rotateX(10deg);  opacity: 1; color: #28a745; }
+  100% { transform: rotateX(0deg);   opacity: 1; color: #0f3d19;}
+}

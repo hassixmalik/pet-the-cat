@@ -1,0 +1,10 @@
+body { font-family: system-ui, sans-serif;}
+.wrap { text-align: center; }
+.catbox { font-size: 5rem; position: relative; height: 6rem; margin: 1rem 0; }
+.cat { transition: transform 0.15s ease; display: inline-block; }
+.hand { position: absolute; transform: rotate(304deg); left: -1rem; top: -2.5rem; display: inline-block; transition: transform 0.2s ease; }
+.hand-in { transform: translateX(4rem) translateY(1rem); }
+.btn { padding: 0.6rem 1rem; font-size: 1rem; cursor: pointer; }
+.count { margin-top: 0.8rem; }
+.petscountdiv{ background-color: #4f5555; border-radius: 10px; padding: 8px;}
+.catouterbox{ width: 215px; }
